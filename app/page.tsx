@@ -52,7 +52,7 @@ export default function Home() {
     {
       title: `Motors Pas a Pas `,
       content: `Els motors pas a pas es mouen en petits passos en lloc de girar contínuament, fet que permet un control precís del moviment. Requereixen un controlador electrònic per al seu funcionament. Hi ha dos tipus principals: els de reluctància variable, on el rotor no té imants, només ferro, i els híbrids, que combinen reluctància i imants permanents per millorar la precisió. Són comuns en impressores, robots i maquinària de control numèric.`,
-      image: "https://picsum.photos/seed/1/800/400",
+      image: `https://picsum.photos/seed/1/800/400`,
     },
     
   ]
