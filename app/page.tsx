@@ -62,7 +62,7 @@ export default function Home() {
       <header className="mb-8 text-center p-8 bg-gradient-to-r from-blue-100 to-purple-100 rounded-lg shadow-md">
         <h1 className="text-4xl font-bold mb-4 text-gray-800">Motors elèctrics</h1>
         <p className="text-xl text-gray-600 a mx-auto">
-        Els motors elèctrics transformen l'energia elèctrica en energia mecànica, permetent el moviment. Es fan servir en tot tipos d'àmbits, com la indústria, els electrodomèstics i la robòtica. Segons el seu disseny i el tipus de corrent amb què funcionen, es divideixen en diverses categories.
+        Els motors elèctrics transformen l&apos;energia elèctrica en energia mecànica, permetent el moviment. Es fan servir en tot tipos d&apos;àmbits, com la indústria, els electrodomèstics i la robòtica. Segons el seu disseny i el tipus de corrent amb què funcionen, es divideixen en diverses categories.
         </p>
       </header>
         <div><h1 className="text-4xl font-bold mb-4 text-gray-800 b">Motors de corrent continu</h1></div>
