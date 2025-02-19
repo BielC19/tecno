@@ -6,8 +6,8 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "React TypeScript Wiki",
-  description: "A simple wiki with a header and Bootstrap-like cards",
+  title: "Motors Elèctric - Biel Costa",
+  description: "Feta per Biel Costa Samsó",
 }
 
 export default function RootLayout({
