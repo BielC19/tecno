@@ -6,7 +6,7 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Motors Elèctric - Biel Costa",
+  title: "Motors Elèctrics - Biel Costa",
   description: "Feta per Biel Costa Samsó",
 }
 
@@ -16,11 +16,11 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="ca">
       <body className={inter.className}>
         <nav className="bg-primary text-primary-foreground p-4">
           <div className="container mx-auto">
-            <h2 className="text-2xl font-bold">My Wiki</h2>
+            <h2 className="text-2xl font-bold">Motors Elèctrics</h2>
           </div>
         </nav>
         <main className="container mx-auto px-4 max-w-7xl py-8">{children}</main>

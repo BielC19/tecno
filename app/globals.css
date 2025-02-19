@@ -19,3 +19,9 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+.a {
+  text-align: justify;
+}
+.b {
+  margin-top: 1.5em;
+}
