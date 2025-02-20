@@ -25,3 +25,23 @@ body {
 .b {
   margin-top: 1em;
 }
+
+@keyframes cardHover {
+  0% {
+    transform: translateY(0);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  100% {
+    transform: translateY(-5px);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background-color: rgba(176, 176, 176, 0.148);
+  }
+}
+
+.c {
+  transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+}
+
+.c:hover {
+  animation: cardHover 0.5s forwards;
+}
